@@ -114,22 +114,31 @@ nav:
         - Converse API Example: './introduction-to-bedrock/converse_api/01_converse_api.md'
     - Agents:
       - Create Agent Examples:
-        - How to create an Agent: './agents/introduction-to-agents/how_to_create_custom_agents.md'
+        - How to create an Agent: './agents-and-function-calling/introduction-to-agents/how_to_create_custom_agents.md'
       - Multi Agent:
-        - Multi Agent Orchestration: './agents/introduction-to-agents/how_to_create_multi_agents_from_custom_agents.md'
+        - Multi Agent Orchestration: './agents-and-function-calling/introduction-to-agents/how_to_create_multi_agents_from_custom_agents.md'
       - Function Calling:
-        - Function Calling with Converse: './agents/function-calling/function_calling_with_converse/function_calling_with_converse.md'
-        - Function Calling with Invoke: './agents/function-calling//function_calling_with_invoke/function_calling_model_with_invoke.md'
-        - Return of Control: './agents/function-calling/return_of_control/return_of_control.md'
-        - Tool Binding: './agents/function-calling/tool_binding/tool_bindings.md'
+        - Function Calling with Converse: './agents-and-function-calling/function-calling/function_calling_with_converse/function_calling_with_converse.md'
+        - Function Calling with Invoke: './agents-and-function-calling/function-calling//function_calling_with_invoke/function_calling_model_with_invoke.md'
+        - Return of Control: './agents-and-function-calling/function-calling/return_of_control/return_of_control.md'
+        - Tool Binding: './agents-and-function-calling/function-calling/tool_binding/tool_bindings.md'
       - Open Source:
+        - CrewAI:
+            - Find Dream Destination with CrewAI: './agents-and-function-calling/open-source-agents/crew.ai/Find dream destination with CrewAI.md'
         - LangGraph:
-          - Single agent: './agents/open-source/langgraph/langgraph-single-agent.md'
-          - Multi agent: './agents/open-source/langgraph/langgraph-multi-agent-sql-tools.md'
-          - Multi modal agent: './agents/open-source/langgraph/langgraph-agents-multimodal.md'
+          - LangGraph Agent with Function Calling: './agents-and-function-calling/open-source-agents/langgraph/langgraph-single-agent.md'
+          - LangGraph Multi-Modal Agent with Function Calling: './agents-and-function-calling/open-source-agents/langgraph/langgraph-agents-multimodal.md'
+          - LangGraph Multi Agent Orchestration: './agents-and-function-calling/open-source-agents/langgraph/langgraph-multi-agent-sql-tools.md'
+          - LangGraph Multi Agent For Medical Chatbot: './agents-and-function-calling/open-source-agents/langgraph/02_medibot_V3_agents.md'
+          - LangGraph Fact Checker with Multi Agent: './agents-and-function-calling/open-source-agents/langgraph/langgraph-fact-checker-feedback-loop.md'
+          - LangGraph Multi Agent With SQL tools: './agents-and-function-calling/open-source-agents/langgraph/langgraph-multi-agent-sql-tools.md'
+          - LangGraph Multi Agent with tools: './agents-and-function-calling/open-source-agents/langgraph/03_langgraph_agents_of_agent.md'
     - RAG:
-      # - Knowledge Bases:
-      #   - OpenSearch Data Ingestion: './rag/open-source/knowledge-base-with-opensource/0_how_to_create_index_and_ingest_documents_in_knowledge_base.md'
+      - Knowledge Bases:
+        - Optimizing Retrieval Results:
+          - Advanced Chunking Strategies: './rag/knowledge-bases/feature-examples/02-optimizing-accuracy-retrieved-results/advanced_chunking_options.md'
+        - RAG Advanced Concepts:
+          - Dynamic Metadata Filtering: './rag/knowledge-bases/feature-examples/03/dynamic-metadata-filtering/dynamic-metadata-filtering-KB.md'
       - Open Source:
         - Chatbot using Langchain: './rag/open-source/chatbots/qa_chatbot_langchain_bedrock.md'
         - Chunking strategies for RAG applications: './rag/open-source/chunking/rag_chunking_strategies_langchain_bedrock.md'
@@ -146,5 +155,15 @@ nav:
     # - Governance: 'general/license.md'
     # - Observability: 'general/license.md'
     # - Data access control: 'general/license.md'
+  - Workshops:
+    - Open-source L400:
+      - Introduction to the Use Case: './workshop/open-source-l400/00_Lab_Intro to Use-Case.md'
+      - Find a Dream Destination using RAG: './workshop/open-source-l400/02_Lab_Find a Dream Destination_RAG query.md'
+      - Find Dream Destination with CrewAI: './workshop/open-source-l400/05_Lab_Find dream destination with CrewAI.md'
+    - Open-source L200:
+      - Introduction to the Use Case: './workshop/open-source-l200/02_contextual_text_generation.md'
+      - Retrieval Based Text Generation: './workshop/open-source-l200/03_retrieval_based_text_application.md'
+      - Retrieval Based Chat Application: './workshop/open-source-l200/04_retrieval_based_chat_application.md'
+      - Agent Based Text Generation: './workshop/open-source-l200/05_agent_based_text_generation.md'
   - Tags: 'general/tags.md'
   - License: 'general/license.md'
